@@ -1,0 +1,61 @@
+
+.heading
+{
+font-size: 50px;
+width: 100%;
+margin: 0px;
+font-family: 'Bebas Neue', sans-serif;
+font-weight: bold;
+letter-spacing: 2px;
+text-shadow: 8px 6px 4px black;
+background-color: #6FB8E8;
+box-shadow: 8px 5px 5px rgb(68, 171, 218);
+}
+
+#status, #number_of_objects, #start_model
+{
+    font-size: 18px;
+    font-family: 'Single Day', cursive;
+    border: 2px black solid;
+}
+
+body{
+    height:100%;
+    width:100%;
+    background-color:whitesmoke;
+}
+
+canvas{
+    border: white 10px solid;
+    border-radius: 25px;
+    box-shadow: 20px 20px 20px rgb(68, 171, 218);
+    margin-top:30px;
+}
+
+span{
+    border: black 2px dotted;
+    height:400px;
+    width:400px;
+}
+
+.footer{
+    background-color:#6FB8E8;
+    font-size: 30px;
+    bottom:0;
+    position:fixed;
+    width: 100%;
+    font-family: 'Dancing Script', cursive;;
+    color:white;
+    box-shadow: 5px 5px 5px 15px rgb(68, 171, 218);
+}
+
+#load{
+    height:30px;
+    width:30px;
+}
+
+.footer:hover{
+    font-size:50px;
+}
+
+
